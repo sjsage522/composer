@@ -1,0 +1,19 @@
+{
+    "name": "sjsage522/composer",
+	"description": "Composer Repository",
+    "homepage": "https://sjsage522.github.io/composer/",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mailplug-inc/composer-ci-health"
+        },
+		{
+            "type": "vcs",
+            "url": "https://github.com/sjsage522/php-sentry-example"
+		}
+    ],
+    "require": {
+        "mailplug/ci-health": "*",
+		"jun/php-sentry-example": "*" 
+    }
+}
