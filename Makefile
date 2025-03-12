@@ -3,7 +3,7 @@ build:
 	docker run --rm --init \
 	  --user $(shell id -u):$(shell id -g) \
 	  --volume $(shell pwd):/build \
-	  --volume "${COMPOSER_HOME:-$HOME/.composer}:/composer" \
+	  --volume "$(HOME)/.composer:/composer" \
 	  composer/satis build ./satis.json ./public
 
 deploy: build
