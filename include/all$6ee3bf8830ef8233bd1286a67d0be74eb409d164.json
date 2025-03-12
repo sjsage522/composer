@@ -1,0 +1,135 @@
+{
+    "packages": {
+        "jun/php-sentry-example": {
+            "dev-main": {
+                "name": "jun/php-sentry-example",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sjsage522/php-sentry-example.git",
+                    "reference": "04ab17c8f3fdff481f279090f4b73bd883b00c3c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sjsage522/php-sentry-example/zipball/04ab17c8f3fdff481f279090f4b73bd883b00c3c",
+                    "reference": "04ab17c8f3fdff481f279090f4b73bd883b00c3c",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^7.8",
+                    "sentry/sentry": "^4.7",
+                    "vlucas/phpdotenv": "^5.6"
+                },
+                "time": "2025-02-26T05:24:24+00:00",
+                "default-branch": true,
+                "type": "project",
+                "autoload": {
+                    "psr-4": {
+                        "Jun\\PhpSentryExample\\": "src/"
+                    }
+                },
+                "license": [
+                    "mit"
+                ],
+                "authors": [
+                    {
+                        "name": "Junseok Shin",
+                        "email": "sjsage522@gmail.com"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/sjsage522/php-sentry-example/tree/main",
+                    "issues": "https://github.com/sjsage522/php-sentry-example/issues"
+                }
+            }
+        },
+        "mailplug/ci-health": {
+            "v0.0.1": {
+                "name": "mailplug/ci-health",
+                "version": "v0.0.1",
+                "version_normalized": "0.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:mailplug-inc/composer-ci-health.git",
+                    "reference": "91a808e20adc1022eeb9b00291881f150d3956e5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mailplug-inc/composer-ci-health/zipball/91a808e20adc1022eeb9b00291881f150d3956e5",
+                    "reference": "91a808e20adc1022eeb9b00291881f150d3956e5",
+                    "shasum": ""
+                },
+                "require": {
+                    "laminas/laminas-diagnostics": "1.22.0",
+                    "myclabs/php-enum": "1.8.4",
+                    "php": "^7.4"
+                },
+                "time": "2024-10-31T07:01:12+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Mailplug\\Health\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "CodeIgniter Health Check Library",
+                "homepage": "https://github.com/mailplug-inc/composer-ci-health",
+                "keywords": [
+                    "ci",
+                    "health",
+                    "php"
+                ],
+                "support": {
+                    "source": "https://github.com/mailplug-inc/composer-ci-health/tree/v0.0.1",
+                    "issues": "https://github.com/mailplug-inc/composer-ci-health/issues"
+                }
+            },
+            "dev-main": {
+                "name": "mailplug/ci-health",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:mailplug-inc/composer-ci-health.git",
+                    "reference": "fb07c2257e4dba197875848c5885763b513a3e67"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mailplug-inc/composer-ci-health/zipball/fb07c2257e4dba197875848c5885763b513a3e67",
+                    "reference": "fb07c2257e4dba197875848c5885763b513a3e67",
+                    "shasum": ""
+                },
+                "require": {
+                    "laminas/laminas-diagnostics": "1.22.0",
+                    "myclabs/php-enum": "1.8.4",
+                    "php": "^7.4"
+                },
+                "time": "2024-11-01T05:47:39+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Mailplug\\Health\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "CodeIgniter Health Check Library",
+                "homepage": "https://github.com/mailplug-inc/composer-ci-health",
+                "keywords": [
+                    "ci",
+                    "health",
+                    "php"
+                ],
+                "support": {
+                    "source": "https://github.com/mailplug-inc/composer-ci-health/tree/main",
+                    "issues": "https://github.com/mailplug-inc/composer-ci-health/issues"
+                }
+            }
+        }
+    }
+}

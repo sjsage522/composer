@@ -1,0 +1,13 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$6ee3bf8830ef8233bd1286a67d0be74eb409d164.json": {
+            "sha1": "6ee3bf8830ef8233bd1286a67d0be74eb409d164"
+        }
+    },
+    "metadata-url": "/composer/p2/%package%.json",
+    "available-packages": [
+        "jun/php-sentry-example",
+        "mailplug/ci-health"
+    ]
+}

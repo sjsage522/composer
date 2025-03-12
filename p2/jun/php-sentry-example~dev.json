@@ -1,0 +1,48 @@
+{
+    "packages": {
+        "jun/php-sentry-example": [
+            {
+                "name": "jun/php-sentry-example",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sjsage522/php-sentry-example.git",
+                    "reference": "04ab17c8f3fdff481f279090f4b73bd883b00c3c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sjsage522/php-sentry-example/zipball/04ab17c8f3fdff481f279090f4b73bd883b00c3c",
+                    "reference": "04ab17c8f3fdff481f279090f4b73bd883b00c3c",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^7.8",
+                    "sentry/sentry": "^4.7",
+                    "vlucas/phpdotenv": "^5.6"
+                },
+                "time": "2025-02-26T05:24:24+00:00",
+                "default-branch": true,
+                "type": "project",
+                "autoload": {
+                    "psr-4": {
+                        "Jun\\PhpSentryExample\\": "src/"
+                    }
+                },
+                "license": [
+                    "mit"
+                ],
+                "authors": [
+                    {
+                        "name": "Junseok Shin",
+                        "email": "sjsage522@gmail.com"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/sjsage522/php-sentry-example/tree/main",
+                    "issues": "https://github.com/sjsage522/php-sentry-example/issues"
+                }
+            }
+        ]
+    }
+}
