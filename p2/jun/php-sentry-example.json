@@ -1,5 +1,63 @@
 {
     "packages": {
-        "jun/php-sentry-example": []
+        "jun/php-sentry-example": [
+            {
+                "name": "jun/php-sentry-example",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sjsage522/php-sentry-example.git",
+                    "reference": "1c46bf237e741f21cfa5f9843e0c05e9d45dccc0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sjsage522/php-sentry-example/zipball/1c46bf237e741f21cfa5f9843e0c05e9d45dccc0",
+                    "reference": "1c46bf237e741f21cfa5f9843e0c05e9d45dccc0",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^7.8",
+                    "php": ">=7.4 <9.0",
+                    "sentry/sentry": "^4.7",
+                    "vlucas/phpdotenv": "^5.6"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.5",
+                    "phpunit/phpunit": "^9.5"
+                },
+                "time": "2025-03-13T06:41:18+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-4": {
+                        "Jun\\PhpSentryExample\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\Jun\\PhpSentryExample\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit --testdox"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Junseok Shin",
+                        "email": "sjsage522@gmail.com"
+                    }
+                ],
+                "description": "A PHP project integrating Sentry for error tracking with asynchronous HTTP requests using Guzzle.",
+                "support": {
+                    "source": "https://github.com/sjsage522/php-sentry-example/tree/v0.0.1",
+                    "issues": "https://github.com/sjsage522/php-sentry-example/issues"
+                }
+            }
+        ]
     }
 }

@@ -1,0 +1,208 @@
+{
+    "packages": {
+        "jun/php-sentry-example": {
+            "0.0.1": {
+                "name": "jun/php-sentry-example",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sjsage522/php-sentry-example.git",
+                    "reference": "1c46bf237e741f21cfa5f9843e0c05e9d45dccc0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sjsage522/php-sentry-example/zipball/1c46bf237e741f21cfa5f9843e0c05e9d45dccc0",
+                    "reference": "1c46bf237e741f21cfa5f9843e0c05e9d45dccc0",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^7.8",
+                    "php": ">=7.4 <9.0",
+                    "sentry/sentry": "^4.7",
+                    "vlucas/phpdotenv": "^5.6"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.5",
+                    "phpunit/phpunit": "^9.5"
+                },
+                "time": "2025-03-13T06:41:18+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-4": {
+                        "Jun\\PhpSentryExample\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\Jun\\PhpSentryExample\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit --testdox"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Junseok Shin",
+                        "email": "sjsage522@gmail.com"
+                    }
+                ],
+                "description": "A PHP project integrating Sentry for error tracking with asynchronous HTTP requests using Guzzle.",
+                "support": {
+                    "source": "https://github.com/sjsage522/php-sentry-example/tree/v0.0.1",
+                    "issues": "https://github.com/sjsage522/php-sentry-example/issues"
+                }
+            },
+            "dev-main": {
+                "name": "jun/php-sentry-example",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sjsage522/php-sentry-example.git",
+                    "reference": "1c46bf237e741f21cfa5f9843e0c05e9d45dccc0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sjsage522/php-sentry-example/zipball/1c46bf237e741f21cfa5f9843e0c05e9d45dccc0",
+                    "reference": "1c46bf237e741f21cfa5f9843e0c05e9d45dccc0",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^7.8",
+                    "php": ">=7.4 <9.0",
+                    "sentry/sentry": "^4.7",
+                    "vlucas/phpdotenv": "^5.6"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.5",
+                    "phpunit/phpunit": "^9.5"
+                },
+                "time": "2025-03-13T06:41:18+00:00",
+                "default-branch": true,
+                "type": "project",
+                "autoload": {
+                    "psr-4": {
+                        "Jun\\PhpSentryExample\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\Jun\\PhpSentryExample\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit --testdox"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Junseok Shin",
+                        "email": "sjsage522@gmail.com"
+                    }
+                ],
+                "description": "A PHP project integrating Sentry for error tracking with asynchronous HTTP requests using Guzzle.",
+                "support": {
+                    "source": "https://github.com/sjsage522/php-sentry-example/tree/v0.0.1",
+                    "issues": "https://github.com/sjsage522/php-sentry-example/issues"
+                }
+            }
+        },
+        "mailplug/ci-health": {
+            "v0.0.1": {
+                "name": "mailplug/ci-health",
+                "version": "v0.0.1",
+                "version_normalized": "0.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:mailplug-inc/composer-ci-health.git",
+                    "reference": "91a808e20adc1022eeb9b00291881f150d3956e5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mailplug-inc/composer-ci-health/zipball/91a808e20adc1022eeb9b00291881f150d3956e5",
+                    "reference": "91a808e20adc1022eeb9b00291881f150d3956e5",
+                    "shasum": ""
+                },
+                "require": {
+                    "laminas/laminas-diagnostics": "1.22.0",
+                    "myclabs/php-enum": "1.8.4",
+                    "php": "^7.4"
+                },
+                "time": "2024-10-31T07:01:12+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Mailplug\\Health\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "CodeIgniter Health Check Library",
+                "homepage": "https://github.com/mailplug-inc/composer-ci-health",
+                "keywords": [
+                    "ci",
+                    "health",
+                    "php"
+                ],
+                "support": {
+                    "source": "https://github.com/mailplug-inc/composer-ci-health/tree/v0.0.1",
+                    "issues": "https://github.com/mailplug-inc/composer-ci-health/issues"
+                }
+            },
+            "dev-main": {
+                "name": "mailplug/ci-health",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:mailplug-inc/composer-ci-health.git",
+                    "reference": "fb07c2257e4dba197875848c5885763b513a3e67"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mailplug-inc/composer-ci-health/zipball/fb07c2257e4dba197875848c5885763b513a3e67",
+                    "reference": "fb07c2257e4dba197875848c5885763b513a3e67",
+                    "shasum": ""
+                },
+                "require": {
+                    "laminas/laminas-diagnostics": "1.22.0",
+                    "myclabs/php-enum": "1.8.4",
+                    "php": "^7.4"
+                },
+                "time": "2024-11-01T05:47:39+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Mailplug\\Health\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "CodeIgniter Health Check Library",
+                "homepage": "https://github.com/mailplug-inc/composer-ci-health",
+                "keywords": [
+                    "ci",
+                    "health",
+                    "php"
+                ],
+                "support": {
+                    "source": "https://github.com/mailplug-inc/composer-ci-health/tree/main",
+                    "issues": "https://github.com/mailplug-inc/composer-ci-health/issues"
+                }
+            }
+        }
+    }
+}
